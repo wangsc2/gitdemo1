@@ -7,4 +7,5 @@ while len(sq)>1:
 	for i in range(num-1):
 		sq.append(sq.pop(0))
 		sq.pop(0)
+print(sq.pop(0))
 		
