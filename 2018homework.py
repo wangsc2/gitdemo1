@@ -8,4 +8,8 @@ while len(sq)>1:
 		sq.append(sq.pop(0))
 		sq.pop(0)
 print(sq.pop(0))
+for i in range(len(sq)-1):
+	print(sq(i))
+print(len(sq))
+
 		
